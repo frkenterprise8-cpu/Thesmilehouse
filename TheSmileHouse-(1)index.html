@@ -1,0 +1,1710 @@
+<!DOCTYPE html>
+<html lang="bn" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Smile House | ডাঃ উসমান গনি-এর ডেন্টাল চেম্বার</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Hind Siliguri & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Hind Siliguri"', 'sans-serif'],
+                        display: ['"Plus Jakarta Sans"', '"Hind Siliguri"', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            navy: '#14365D',
+                            blue: '#1E568E',
+                            lightBlue: '#EBF5FF',
+                            green: '#3B7A3E',
+                            mint: '#E8F5E9',
+                            accentRed: '#C62828',
+                            gold: '#FACC15'
+                        }
+                    },
+                    boxShadow: {
+                        'soft': '0 10px 30px -5px rgba(20, 54, 93, 0.08)',
+                        'card': '0 4px 20px -2px rgba(20, 54, 93, 0.06)',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-brand-blue selection:text-white">
+
+    <!-- ==================== PATIENT WEBSITE VIEW ==================== -->
+    <div id="patient-website-view">
+
+        <!-- Top Quick Contact Bar -->
+        <div class="bg-brand-navy text-white text-sm py-2 px-4 border-b border-blue-900/50">
+            <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-1.5 text-center sm:text-left">
+                <div class="flex items-center gap-2 text-blue-100">
+                    <i class="fa-solid fa-calendar-check text-emerald-400"></i>
+                    <span>রোগী দেখার দিন: <strong class="text-white font-semibold">প্রতি সপ্তাহের রবিবার ও সোমবার</strong></span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <a href="tel:9593300713" class="inline-flex items-center gap-1.5 text-yellow-300 hover:text-yellow-200 font-semibold transition">
+                        <i class="fa-solid fa-phone-volume animate-pulse"></i>
+                        <span>নাম লেখাতে কল করুন: 9593300713</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sticky Navigation Bar -->
+        <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-200/80">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between items-center h-20">
+                    <!-- Brand Logo -->
+                    <a href="#home" class="flex items-center gap-3 group">
+                        <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-blue-50 to-emerald-50 border border-blue-100 flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform">
+                            <svg class="w-9 h-9" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M46 12C39 7 29 6 20 11C10 17 6 29 10 40C12 45 16 50 21 53" stroke="#1E568E" stroke-width="4" stroke-linecap="round"/>
+                                <path d="M23 54C33 58 45 54 51 45C56 37 56 26 51 18" stroke="#3B7A3E" stroke-width="4" stroke-linecap="round"/>
+                                <path d="M23 22C20 22 18 25 18 29C18 34 20 38 21 43C22 46 24 47 25.5 45C27 43 28 39 32 39C36 39 37 43 38.5 45C40 47 42 46 43 43C44 38 46 34 46 29C46 25 44 22 41 22C38.5 22 36.5 23.5 32 23.5C27.5 23.5 25.5 22 23 22Z" fill="#FFFFFF" stroke="#1E568E" stroke-width="2.5" stroke-linejoin="round"/>
+                                <path d="M25.5 28.5C26 27.5 27.5 27.5 28 28.5" stroke="#1E568E" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M36 28.5C36.5 27.5 38 27.5 38.5 28.5" stroke="#1E568E" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M27.5 32.5C29.5 35 34.5 35 36.5 32.5" stroke="#1E568E" stroke-width="2.2" stroke-linecap="round"/>
+                                <path d="M51 11L52.2 13.8L55 15L52.2 16.2L51 19L49.8 16.2L47 15L49.8 13.8L51 11Z" fill="#38BDF8"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <div class="flex items-baseline gap-1 font-display font-extrabold text-xl sm:text-2xl tracking-tight leading-none">
+                                <span class="text-slate-700 text-sm font-bold">The</span>
+                                <span class="text-brand-blue">Smile</span>
+                                <span class="text-brand-green">House</span>
+                            </div>
+                            <p class="text-xs sm:text-sm font-semibold text-brand-navy mt-0.5">ডাঃ উসমান গনি-এর ডেন্টাল চেম্বার</p>
+                        </div>
+                    </a>
+
+                    <!-- Desktop Navigation -->
+                    <nav class="hidden lg:flex items-center gap-6 font-medium text-slate-700">
+                        <a href="#home" class="hover:text-brand-blue transition">হোম</a>
+                        <a href="#services" class="hover:text-brand-blue transition">সেবাসমূহ</a>
+                        <a href="#chamber" class="hover:text-brand-blue transition">আধুনিক চেম্বার</a>
+                        <a href="#doctor" class="hover:text-brand-blue transition">ডাক্তার পরিচিতি</a>
+                        <a href="#schedule" class="hover:text-brand-blue transition">সময়সূচী ও ঠিকানা</a>
+                    </nav>
+
+                    <!-- Desktop CTA & Doctor Mode Buttons -->
+                    <div class="hidden sm:flex items-center gap-2.5">
+                        <button type="button" onclick="openDoctorLoginModal()" class="bg-slate-100 hover:bg-slate-200 text-brand-navy font-semibold px-3.5 py-2.5 rounded-xl border border-slate-300/80 transition flex items-center gap-2 text-sm cursor-pointer">
+                            <i class="fa-solid fa-user-doctor text-brand-blue"></i>
+                            <span>ডাক্তার লগইন</span>
+                        </button>
+                        <button type="button" onclick="openBookingModal()" class="bg-brand-blue hover:bg-brand-navy text-white font-semibold px-5 py-2.5 rounded-xl shadow-sm hover:shadow transition flex items-center gap-2 cursor-pointer">
+                            <i class="fa-regular fa-calendar-plus"></i>
+                            <span>অ্যাপয়েন্টমেন্ট</span>
+                        </button>
+                    </div>
+
+                    <!-- Mobile Doctor Button + Hamburger -->
+                    <div class="flex items-center gap-2 lg:hidden">
+                        <button type="button" onclick="openDoctorLoginModal()" class="p-2.5 rounded-xl bg-blue-50 text-brand-navy hover:bg-blue-100 border border-blue-200 text-xs font-bold flex items-center gap-1.5 cursor-pointer">
+                            <i class="fa-solid fa-user-doctor text-brand-blue"></i>
+                            <span>ডাক্তার</span>
+                        </button>
+                        <button type="button" id="mobile-menu-btn" aria-label="মেনু খুলুন" class="p-2.5 rounded-xl text-slate-700 hover:bg-slate-100 focus:outline-none">
+                            <i class="fa-solid fa-bars text-xl"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile Dropdown Navigation -->
+            <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-slate-100 px-4 pt-3 pb-5 space-y-2 shadow-lg">
+                <a href="#home" class="mobile-nav-link block px-3 py-2.5 rounded-xl text-base font-medium text-slate-700 hover:bg-brand-lightBlue hover:text-brand-blue">হোম</a>
+                <a href="#services" class="mobile-nav-link block px-3 py-2.5 rounded-xl text-base font-medium text-slate-700 hover:bg-brand-lightBlue hover:text-brand-blue">সেবাসমূহ</a>
+                <a href="#chamber" class="mobile-nav-link block px-3 py-2.5 rounded-xl text-base font-medium text-slate-700 hover:bg-brand-lightBlue hover:text-brand-blue">আধুনিক চেম্বার</a>
+                <a href="#doctor" class="mobile-nav-link block px-3 py-2.5 rounded-xl text-base font-medium text-slate-700 hover:bg-brand-lightBlue hover:text-brand-blue">ডাক্তার পরিচিতি</a>
+                <a href="#schedule" class="mobile-nav-link block px-3 py-2.5 rounded-xl text-base font-medium text-slate-700 hover:bg-brand-lightBlue hover:text-brand-blue">সময়সূচী ও ঠিকানা</a>
+                <div class="pt-2 flex flex-col gap-2">
+                    <button type="button" onclick="openBookingModal()" class="w-full bg-brand-blue text-white font-semibold py-3 rounded-xl flex items-center justify-center gap-2">
+                        <i class="fa-regular fa-calendar-plus"></i>
+                        <span>অ্যাপয়েন্টমেন্ট বুক করুন</span>
+                    </button>
+                    <button type="button" onclick="openDoctorLoginModal()" class="w-full bg-slate-800 text-white font-semibold py-3 rounded-xl flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-user-doctor text-yellow-300"></i>
+                        <span>Doctor Mode (রোগীর তালিকা দেখুন)</span>
+                    </button>
+                    <a href="tel:9593300713" class="w-full bg-emerald-600 text-white font-semibold py-3 rounded-xl flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>কল করুন: 9593300713</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section id="home" class="relative overflow-hidden bg-gradient-to-br from-brand-lightBlue via-white to-brand-mint/60 pt-10 pb-16 lg:pt-16 lg:pb-24">
+            <div class="absolute top-0 right-0 -mt-16 -mr-16 w-80 h-80 rounded-full bg-blue-200/30 blur-3xl pointer-events-none"></div>
+            <div class="absolute bottom-0 left-0 -mb-16 -ml-16 w-80 h-80 rounded-full bg-emerald-200/30 blur-3xl pointer-events-none"></div>
+
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+                    
+                    <!-- Left Content -->
+                    <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                        <div class="inline-flex items-center gap-2 bg-white border border-blue-200/80 shadow-xs px-4 py-1.5 rounded-full text-brand-navy font-semibold text-sm">
+                            <span class="w-2.5 h-2.5 rounded-full bg-brand-green animate-ping"></span>
+                            <span>নতুন চেম্বার • নতুন ঠিকানা • নতুন আশার হাসি</span>
+                        </div>
+
+                        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-brand-navy leading-tight">
+                            দাঁতের সমস্যা নিয়ে আর নয় চিন্তা!
+                            <span class="block text-xl sm:text-2xl lg:text-3xl font-semibold text-brand-green mt-2">
+                                এবার দাঁতের চিকিৎসা হবে আপনার একেবারে কাছাকাছি।
+                            </span>
+                        </h1>
+
+                        <div class="bg-white/80 backdrop-blur-xs border border-blue-100 rounded-2xl p-4 sm:p-5 shadow-card max-w-2xl mx-auto lg:mx-0">
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-2 border-b border-slate-100">
+                                <span class="text-xs font-bold uppercase tracking-wider text-brand-blue bg-blue-50 px-2.5 py-1 rounded-lg w-fit mx-auto sm:mx-0">আপনার দাঁতের যত্নে, আপনার পাশে</span>
+                                <span class="text-sm font-semibold text-brand-green">Healthy Teeth • Happy Smiles</span>
+                            </div>
+                            <div class="flex flex-wrap items-baseline justify-center lg:justify-start gap-2 mt-2">
+                                <h2 class="text-2xl sm:text-3xl font-bold text-brand-navy">ডাঃ উসমান গনি</h2>
+                                <span class="bg-brand-navy text-white text-xs sm:text-sm font-bold px-2.5 py-0.5 rounded-lg">BDS (Govt)</span>
+                                <span class="text-xs sm:text-sm font-semibold text-slate-600 bg-slate-100 px-2.5 py-0.5 rounded-lg">Reg. No. – 10866-A</span>
+                            </div>
+                            <p class="text-slate-700 text-sm sm:text-base mt-1.5">
+                                কলকাতার বিশিষ্ট প্রতিষ্ঠান <strong class="text-brand-blue font-semibold">“ডাঃ আর. আহমেদ ডেন্টাল কলেজ অ্যান্ড হসপিটাল”</strong>-এর সাথে যুক্ত।
+                            </p>
+                        </div>
+
+                        <!-- Primary Action Buttons -->
+                        <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                            <button type="button" onclick="openBookingModal()" class="w-full sm:w-auto bg-brand-navy hover:bg-brand-blue text-white text-lg font-semibold px-7 py-4 rounded-2xl shadow-lg shadow-blue-900/20 hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2.5 cursor-pointer">
+                                <i class="fa-solid fa-calendar-check text-yellow-300"></i>
+                                <span>অ্যাপয়েন্টমেন্ট বুক করুন</span>
+                            </button>
+                            <a href="tel:9593300713" class="w-full sm:w-auto bg-white hover:bg-emerald-50 text-brand-navy border-2 border-brand-green/30 text-lg font-bold px-7 py-3.5 rounded-2xl shadow-sm hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2.5">
+                                <span class="w-8 h-8 rounded-full bg-brand-green text-white flex items-center justify-center text-sm">
+                                    <i class="fa-solid fa-phone"></i>
+                                </span>
+                                <span>9593300713</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Right Visual Card -->
+                    <div class="lg:col-span-5">
+                        <div class="bg-white rounded-3xl p-6 sm:p-8 shadow-soft border border-slate-100 relative">
+                            <div class="bg-gradient-to-r from-brand-navy to-brand-blue text-white rounded-2xl p-5 text-center shadow-md relative overflow-hidden">
+                                <div class="flex justify-center mb-3">
+                                    <div class="w-20 h-20 rounded-full bg-white/15 backdrop-blur-xs flex items-center justify-center border border-white/25">
+                                        <svg class="w-12 h-12" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M20 14C15 14 12 19 12 25C12 33 15 39 17 47C18.5 52 21.5 53 23.5 50C25.5 47 27 41 32 41C37 41 38.5 47 40.5 50C42.5 53 45.5 52 47 47C49 39 52 33 52 25C52 19 49 14 44 14C40.5 14 38 16.5 32 16.5C26 16.5 23.5 14 20 14Z" fill="#FFFFFF"/>
+                                            <path d="M44 33L54 37V45C54 51.5 49.7 56.8 44 59C38.3 56.8 34 51.5 34 45V37L44 33Z" fill="#3B7A3E" stroke="#FFFFFF" stroke-width="2"/>
+                                            <path d="M44 41V51M39 46H49" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <h3 class="font-display font-extrabold text-2xl tracking-tight">The Smile House</h3>
+                                <p class="text-yellow-300 font-semibold text-base mt-1">নতুন চেম্বার • নতুন ঠিকানা • নতুন আশার হাসি</p>
+                            </div>
+
+                            <!-- Quick Schedule & Location Summary -->
+                            <div class="mt-6 space-y-4">
+                                <div class="flex items-start gap-3.5 p-3.5 rounded-2xl bg-slate-50 border border-slate-100">
+                                    <div class="w-10 h-10 rounded-xl bg-blue-100 text-brand-blue flex items-center justify-center shrink-0 mt-0.5">
+                                        <i class="fa-regular fa-calendar-days text-lg"></i>
+                                    </div>
+                                    <div>
+                                        <p class="text-xs font-semibold text-slate-500">রোগী দেখার দিন</p>
+                                        <p class="font-bold text-brand-accentRed text-base">প্রতি সপ্তাহের রবিবার ও সোমবার</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-start gap-3.5 p-3.5 rounded-2xl bg-slate-50 border border-slate-100">
+                                    <div class="w-10 h-10 rounded-xl bg-emerald-100 text-brand-green flex items-center justify-center shrink-0 mt-0.5">
+                                        <i class="fa-regular fa-clock text-lg"></i>
+                                    </div>
+                                    <div>
+                                        <p class="text-xs font-semibold text-slate-500">চেম্বারের সময়</p>
+                                        <p class="font-semibold text-slate-800 text-sm sm:text-base">সকাল ১০টা - দুপুর ২টা <span class="text-slate-400 mx-1">|</span> বিকাল ৪টা - রাত ৮টা</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-start gap-3.5 p-3.5 rounded-2xl bg-slate-50 border border-slate-100">
+                                    <div class="w-10 h-10 rounded-xl bg-rose-100 text-brand-accentRed flex items-center justify-center shrink-0 mt-0.5">
+                                        <i class="fa-solid fa-location-dot text-lg"></i>
+                                    </div>
+                                    <div>
+                                        <p class="text-xs font-semibold text-slate-500">ঠিকানা</p>
+                                        <p class="font-semibold text-slate-800 text-sm sm:text-base">গৌরিক মেডিক্যাল, হসপিটাল রোড, জীবনদীপ নার্সিং হোমের কাছে, রায়গঞ্জ, উত্তর দিনাজপুর</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Pillars Banner Strip -->
+        <section class="bg-brand-navy text-white py-6 border-y border-blue-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+                    <div class="flex items-center justify-center sm:justify-start gap-3 bg-white/5 px-4 py-3 rounded-2xl border border-white/10">
+                        <div class="w-10 h-10 rounded-xl bg-blue-500/20 text-sky-300 flex items-center justify-center shrink-0">
+                            <i class="fa-solid fa-tooth text-lg"></i>
+                        </div>
+                        <span class="font-semibold text-base sm:text-lg">আধুনিক চিকিৎসা</span>
+                    </div>
+
+                    <div class="flex items-center justify-center sm:justify-start gap-3 bg-white/5 px-4 py-3 rounded-2xl border border-white/10">
+                        <div class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-300 flex items-center justify-center shrink-0">
+                            <i class="fa-solid fa-shield-halved text-lg"></i>
+                        </div>
+                        <span class="font-semibold text-base sm:text-lg">নিরাপদ পরিবেশ</span>
+                    </div>
+
+                    <div class="flex items-center justify-center sm:justify-start gap-3 bg-white/5 px-4 py-3 rounded-2xl border border-white/10">
+                        <div class="w-10 h-10 rounded-xl bg-rose-500/20 text-rose-300 flex items-center justify-center shrink-0">
+                            <i class="fa-solid fa-heart text-lg"></i>
+                        </div>
+                        <span class="font-semibold text-base sm:text-lg">আন্তরিক সেবা</span>
+                    </div>
+
+                    <div class="flex items-center justify-center sm:justify-start gap-3 bg-white/5 px-4 py-3 rounded-2xl border border-white/10">
+                        <div class="w-10 h-10 rounded-xl bg-yellow-500/20 text-yellow-300 flex items-center justify-center shrink-0">
+                            <i class="fa-regular fa-face-smile text-lg"></i>
+                        </div>
+                        <span class="font-semibold text-base sm:text-lg">সুস্থ দাঁত, সুন্দর জীবন</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-16 lg:py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-12">
+                    <span class="inline-block bg-brand-mint text-brand-green font-bold px-4 py-1.5 rounded-full text-sm mb-3">
+                        <i class="fa-solid fa-stethoscope mr-1.5"></i> আমাদের সেবাসমূহ
+                    </span>
+                    <h2 class="text-2xl sm:text-4xl font-bold text-brand-navy">
+                        যে কোনো দাঁতের সমস্যায় পরামর্শ ও চিকিৎসা
+                    </h2>
+                    <p class="text-slate-600 mt-3 text-base sm:text-lg">
+                        আধুনিক যন্ত্রপাতি ও অভিজ্ঞ চিকিৎসকের তত্ত্বাবধানে সকল প্রকার দাঁত ও মাড়ির সমস্যার নির্ভরযোগ্য সমাধান।
+                    </p>
+                </div>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Service Card 1 -->
+                    <div class="group bg-slate-50 hover:bg-white rounded-3xl p-6 border border-slate-200/80 hover:border-brand-blue/40 shadow-card hover:shadow-soft transition-all flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-5">
+                                <div class="w-14 h-14 rounded-2xl bg-blue-100 text-brand-blue flex items-center justify-center group-hover:scale-110 transition-transform">
+                                    <i class="fa-solid fa-bolt text-2xl"></i>
+                                </div>
+                                <span class="bg-brand-accentRed text-white text-xs font-bold px-3 py-1 rounded-full shadow-xs">
+                                    চিন্তা নেই!
+                                </span>
+                            </div>
+                            <h3 class="text-xl font-bold text-brand-navy mb-2">দাঁতে ব্যথা?</h3>
+                            <p class="text-slate-600 text-sm leading-relaxed">
+                                তীব্র বা হালকা দাঁতের ব্যথা, শিরশিরানি কিংবা আক্কেল দাঁতের ব্যথার দ্রুত ও ব্যথামুক্ত আধুনিক চিকিৎসা।
+                            </p>
+                        </div>
+                        <button type="button" onclick="openBookingModal('দাঁতে ব্যথা')" class="mt-6 w-full py-2.5 px-4 rounded-xl bg-white group-hover:bg-brand-blue text-brand-blue group-hover:text-white border border-blue-200 font-semibold text-sm transition flex items-center justify-center gap-2 cursor-pointer">
+                            <span>পরামর্শ নিন</span>
+                            <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </button>
+                    </div>
+
+                    <!-- Service Card 2 -->
+                    <div class="group bg-slate-50 hover:bg-white rounded-3xl p-6 border border-slate-200/80 hover:border-brand-blue/40 shadow-card hover:shadow-soft transition-all flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-5">
+                                <div class="w-14 h-14 rounded-2xl bg-emerald-100 text-brand-green flex items-center justify-center group-hover:scale-110 transition-transform">
+                                    <i class="fa-solid fa-tooth text-2xl"></i>
+                                </div>
+                                <span class="bg-brand-accentRed text-white text-xs font-bold px-3 py-1 rounded-full shadow-xs">
+                                    চিন্তা নেই!
+                                </span>
+                            </div>
+                            <h3 class="text-xl font-bold text-brand-navy mb-2">দাঁতে ক্ষয়?</h3>
+                            <p class="text-slate-600 text-sm leading-relaxed">
+                                দাঁতে গর্ত বা ক্যাভিটি, দাঁত ক্ষয় হয়ে যাওয়া রোধ করতে আধুনিক ফিলিং ও রুট ক্যানেল চিকিৎসা।
+                            </p>
+                        </div>
+                        <button type="button" onclick="openBookingModal('দাঁতে ক্ষয়')" class="mt-6 w-full py-2.5 px-4 rounded-xl bg-white group-hover:bg-brand-blue text-brand-blue group-hover:text-white border border-blue-200 font-semibold text-sm transition flex items-center justify-center gap-2 cursor-pointer">
+                            <span>পরামর্শ নিন</span>
+                            <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </button>
+                    </div>
+
+                    <!-- Service Card 3 -->
+                    <div class="group bg-slate-50 hover:bg-white rounded-3xl p-6 border border-slate-200/80 hover:border-brand-blue/40 shadow-card hover:shadow-soft transition-all flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-5">
+                                <div class="w-14 h-14 rounded-2xl bg-rose-100 text-brand-accentRed flex items-center justify-center group-hover:scale-110 transition-transform">
+                                    <i class="fa-solid fa-heart-pulse text-2xl"></i>
+                                </div>
+                                <span class="bg-brand-accentRed text-white text-xs font-bold px-3 py-1 rounded-full shadow-xs">
+                                    চিন্তা নেই!
+                                </span>
+                            </div>
+                            <h3 class="text-xl font-bold text-brand-navy mb-2">মাড়ির সমস্যা?</h3>
+                            <p class="text-slate-600 text-sm leading-relaxed">
+                                মাড়ি ফুলে যাওয়া, মাড়ি থেকে রক্ত পড়া, পাথর জমা বা মুখের দুর্গন্ধ দূর করতে স্কেলিং ও মাড়ির চিকিৎসা।
+                            </p>
+                        </div>
+                        <button type="button" onclick="openBookingModal('মাড়ির সমস্যা')" class="mt-6 w-full py-2.5 px-4 rounded-xl bg-white group-hover:bg-brand-blue text-brand-blue group-hover:text-white border border-blue-200 font-semibold text-sm transition flex items-center justify-center gap-2 cursor-pointer">
+                            <span>পরামর্শ নিন</span>
+                            <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </button>
+                    </div>
+
+                    <!-- Service Card 4 -->
+                    <div class="group bg-slate-50 hover:bg-white rounded-3xl p-6 border border-slate-200/80 hover:border-brand-blue/40 shadow-card hover:shadow-soft transition-all flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-5">
+                                <div class="w-14 h-14 rounded-2xl bg-sky-100 text-sky-700 flex items-center justify-center group-hover:scale-110 transition-transform">
+                                    <i class="fa-solid fa-kit-medical text-2xl"></i>
+                                </div>
+                                <span class="bg-brand-accentRed text-white text-xs font-bold px-3 py-1 rounded-full shadow-xs">
+                                    চিন্তা নেই!
+                                </span>
+                            </div>
+                            <h3 class="text-xl font-bold text-brand-navy mb-2">দাঁতের অন্যান্য সমস্যা?</h3>
+                            <p class="text-slate-600 text-sm leading-relaxed">
+                                বাঁকা দাঁত, নতুন দাঁত বসানো, দাঁত তোলা এবং শিশু ও বয়স্কদের নিয়মিত ডেন্টাল চেকআপ।
+                            </p>
+                        </div>
+                        <button type="button" onclick="openBookingModal('দাঁতের অন্যান্য সমস্যা')" class="mt-6 w-full py-2.5 px-4 rounded-xl bg-white group-hover:bg-brand-blue text-brand-blue group-hover:text-white border border-blue-200 font-semibold text-sm transition flex items-center justify-center gap-2 cursor-pointer">
+                            <span>পরামর্শ নিন</span>
+                            <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 7 Specialized Treatments -->
+                <div class="mt-12 bg-gradient-to-br from-brand-lightBlue/70 via-white to-brand-mint/50 rounded-3xl p-6 sm:p-8 border border-blue-100 shadow-card">
+                    <div class="text-center max-w-2xl mx-auto mb-7">
+                        <h3 class="text-xl sm:text-2xl font-bold text-brand-navy">আমাদের বিশেষায়িত ডেন্টাল চিকিৎসাসমূহ (Our Dental Services)</h3>
+                        <p class="text-slate-600 text-sm mt-1">আধুনিক প্রযুক্তির মাধ্যমে নিচের সকল চিকিৎসা নিয়মিত প্রদান করা হয়</p>
+                    </div>
+
+                    <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3.5">
+                        <button type="button" onclick="openBookingModal('General Dentistry (সাধারণ দাঁতের চিকিৎসা)')" class="flex items-center gap-3 bg-white hover:bg-brand-blue hover:text-white text-slate-800 p-3.5 rounded-2xl border border-slate-200/80 shadow-2xs transition text-left group cursor-pointer">
+                            <span class="w-8 h-8 rounded-xl bg-blue-100 text-brand-blue group-hover:bg-white/20 group-hover:text-white flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-check"></i>
+                            </span>
+                            <div>
+                                <p class="font-bold text-sm leading-tight">General Dentistry</p>
+                                <p class="text-xs text-slate-500 group-hover:text-blue-100">সাধারণ দাঁত ও মুখের চিকিৎসা</p>
+                            </div>
+                        </button>
+
+                        <button type="button" onclick="openBookingModal('Orthodontic Treatment (বাঁকা দাঁত সোজা করা)')" class="flex items-center gap-3 bg-white hover:bg-brand-blue hover:text-white text-slate-800 p-3.5 rounded-2xl border border-slate-200/80 shadow-2xs transition text-left group cursor-pointer">
+                            <span class="w-8 h-8 rounded-xl bg-blue-100 text-brand-blue group-hover:bg-white/20 group-hover:text-white flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-check"></i>
+                            </span>
+                            <div>
+                                <p class="font-bold text-sm leading-tight">Orthodontic Treatment</p>
+                                <p class="text-xs text-slate-500 group-hover:text-blue-100">ব্রেস ও বাঁকা দাঁত সোজা করা</p>
+                            </div>
+                        </button>
+
+                        <button type="button" onclick="openBookingModal('Root Canal Treatment (RCT)')" class="flex items-center gap-3 bg-white hover:bg-brand-blue hover:text-white text-slate-800 p-3.5 rounded-2xl border border-slate-200/80 shadow-2xs transition text-left group cursor-pointer">
+                            <span class="w-8 h-8 rounded-xl bg-blue-100 text-brand-blue group-hover:bg-white/20 group-hover:text-white flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-check"></i>
+                            </span>
+                            <div>
+                                <p class="font-bold text-sm leading-tight">Root Canal Treatment (RCT)</p>
+                                <p class="text-xs text-slate-500 group-hover:text-blue-100">ব্যথামুক্ত রুট ক্যানেল চিকিৎসা</p>
+                            </div>
+                        </button>
+
+                        <button type="button" onclick="openBookingModal('Tooth Extraction (দাঁত তোলা)')" class="flex items-center gap-3 bg-white hover:bg-brand-blue hover:text-white text-slate-800 p-3.5 rounded-2xl border border-slate-200/80 shadow-2xs transition text-left group cursor-pointer">
+                            <span class="w-8 h-8 rounded-xl bg-blue-100 text-brand-blue group-hover:bg-white/20 group-hover:text-white flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-check"></i>
+                            </span>
+                            <div>
+                                <p class="font-bold text-sm leading-tight">Tooth Extraction</p>
+                                <p class="text-xs text-slate-500 group-hover:text-blue-100">নিরাপদ পদ্ধতিতে দাঁত তোলা</p>
+                            </div>
+                        </button>
+
+                        <button type="button" onclick="openBookingModal('Dental Crowns & Bridges (ক্যাপ ও ব্রিজ)')" class="flex items-center gap-3 bg-white hover:bg-brand-blue hover:text-white text-slate-800 p-3.5 rounded-2xl border border-slate-200/80 shadow-2xs transition text-left group cursor-pointer">
+                            <span class="w-8 h-8 rounded-xl bg-blue-100 text-brand-blue group-hover:bg-white/20 group-hover:text-white flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-check"></i>
+                            </span>
+                            <div>
+                                <p class="font-bold text-sm leading-tight">Dental Crowns & Bridges</p>
+                                <p class="text-xs text-slate-500 group-hover:text-blue-100">দাঁতের ক্যাপ ও ব্রিজ বসানো</p>
+                            </div>
+                        </button>
+
+                        <button type="button" onclick="openBookingModal('Dental Implants (ডেন্টাল ইমপ্ল্যান্ট)')" class="flex items-center gap-3 bg-white hover:bg-brand-blue hover:text-white text-slate-800 p-3.5 rounded-2xl border border-slate-200/80 shadow-2xs transition text-left group cursor-pointer">
+                            <span class="w-8 h-8 rounded-xl bg-blue-100 text-brand-blue group-hover:bg-white/20 group-hover:text-white flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-check"></i>
+                            </span>
+                            <div>
+                                <p class="font-bold text-sm leading-tight">Dental Implants</p>
+                                <p class="text-xs text-slate-500 group-hover:text-blue-100">স্থায়ী কৃত্রিম দাঁত প্রতিস্থাপন</p>
+                            </div>
+                        </button>
+
+                        <button type="button" onclick="openBookingModal('Cosmetic Dentistry (কসমেটিক ডেন্টিস্ট্রি)')" class="flex items-center gap-3 bg-white hover:bg-brand-blue hover:text-white text-slate-800 p-3.5 rounded-2xl border border-slate-200/80 shadow-2xs transition text-left group cursor-pointer">
+                            <span class="w-8 h-8 rounded-xl bg-blue-100 text-brand-blue group-hover:bg-white/20 group-hover:text-white flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-check"></i>
+                            </span>
+                            <div>
+                                <p class="font-bold text-sm leading-tight">Cosmetic Dentistry</p>
+                                <p class="text-xs text-slate-500 group-hover:text-blue-100">দাঁতের সৌন্দর্যবর্ধন ও হাসি সুন্দর করা</p>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modern Chamber & Equipment Showcase Section -->
+        <section id="chamber" class="py-16 lg:py-20 bg-slate-50 border-t border-slate-200/70">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-12 gap-8 items-center">
+                    <div class="lg:col-span-6">
+                        <div class="rounded-3xl overflow-hidden shadow-soft border-4 border-white bg-white">
+                            <img 
+                                src="1000062111.png" 
+                                alt="The Smile House - আধুনিক ডেন্টাল চেয়ার ও যন্ত্রপাতি" 
+                                onerror="this.onerror=null; this.src='https://placehold.co/800x600/EBF5FF/14365D?text=The+Smile+House+-+Modern+Dental+Chair';"
+                                class="w-full h-72 sm:h-96 object-cover"
+                            >
+                        </div>
+                    </div>
+                    <div class="lg:col-span-6 space-y-5">
+                        <span class="inline-block bg-blue-100 text-brand-blue font-bold px-4 py-1.5 rounded-full text-sm">
+                            <i class="fa-solid fa-chair mr-1.5"></i> আধুনিক ডেন্টাল চেম্বার
+                        </span>
+                        <h2 class="text-2xl sm:text-4xl font-bold text-brand-navy leading-snug">
+                            অত্যাধুনিক ডেন্টাল চেয়ার ও সম্পূর্ণ জীবাণুমুক্ত চিকিৎসা ব্যবস্থা
+                        </h2>
+                        <p class="text-slate-600 text-base leading-relaxed">
+                            রোগীদের আরামদায়ক এবং ব্যথামুক্ত চিকিৎসা নিশ্চিত করতে আমাদের চেম্বারে রয়েছে আধুনিক ডেন্টাল ইউনিট, ডিজিটাল ডায়াগনস্টিক সুবিধা এবং ১০০% জীবাণুমুক্ত যন্ত্রপাতি।
+                        </p>
+                        <div class="grid sm:grid-cols-2 gap-4 pt-2">
+                            <div class="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-2xs flex items-start gap-3">
+                                <div class="w-9 h-9 rounded-xl bg-emerald-100 text-brand-green flex items-center justify-center shrink-0">
+                                    <i class="fa-solid fa-spray-can-sparkles"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-brand-navy text-sm">হাইজিন ও স্টেরিলাইজেশন</h4>
+                                    <p class="text-xs text-slate-600 mt-0.5">প্রতিটি রোগীর জন্য সম্পূর্ণ জীবাণুমুক্ত যন্ত্রপাতি ব্যবহার।</p>
+                                </div>
+                            </div>
+                            <div class="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-2xs flex items-start gap-3">
+                                <div class="w-9 h-9 rounded-xl bg-blue-100 text-brand-blue flex items-center justify-center shrink-0">
+                                    <i class="fa-solid fa-face-smile-beam"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-brand-navy text-sm">ব্যথামুক্ত আধুনিক পদ্ধতি</h4>
+                                    <p class="text-xs text-slate-600 mt-0.5">শিশু থেকে বয়স্ক—সবার জন্য নিরাপদ ও স্বস্তিদায়ক চিকিৎসা।</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Doctor Profile Section -->
+        <section id="doctor" class="py-16 lg:py-24 bg-gradient-to-b from-white to-brand-lightBlue/50 border-t border-slate-200/70">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="bg-white rounded-3xl shadow-soft border border-blue-100 overflow-hidden">
+                    <div class="grid lg:grid-cols-12">
+                        <!-- Left Visual Panel -->
+                        <div class="lg:col-span-5 bg-gradient-to-br from-brand-navy via-brand-blue to-teal-800 text-white p-8 sm:p-10 flex flex-col justify-between relative overflow-hidden">
+                            <div class="absolute -bottom-10 -right-10 opacity-10 pointer-events-none">
+                                <i class="fa-solid fa-tooth text-[180px]"></i>
+                            </div>
+                            
+                            <div>
+                                <span class="inline-block bg-white/15 backdrop-blur-xs text-yellow-300 text-xs font-bold px-3.5 py-1.5 rounded-full border border-white/20">
+                                    আপনার দাঁতের যত্নে, আপনার পাশে
+                                </span>
+                                <div class="mt-5 rounded-2xl overflow-hidden border-2 border-white/25 shadow-lg bg-white/10">
+                                    <img 
+                                        src="1000062112.jpg" 
+                                        alt="ডাঃ উসমান গনি - The Smile House Dental Clinic" 
+                                        onerror="this.onerror=null; this.src='https://placehold.co/600x700/14365D/FFFFFF?text=Dr.+Usman+Gani+-+BDS+(Govt)';"
+                                        class="w-full h-64 sm:h-72 object-cover object-top"
+                                    >
+                                </div>
+                                <div class="flex flex-wrap items-center gap-2 mt-4">
+                                    <h2 class="text-2xl sm:text-3xl font-bold">ডাঃ উসমান গনি</h2>
+                                    <span class="bg-yellow-400 text-brand-navy text-xs font-extrabold px-2.5 py-1 rounded-lg">BDS (Govt)</span>
+                                </div>
+                                <p class="text-blue-200 text-sm sm:text-base font-medium mt-1">ডেন্টাল চিকিৎসক • Reg. No. – 10866-A</p>
+                            </div>
+
+                            <div class="mt-6 pt-5 border-t border-white/15">
+                                <p class="text-sm text-blue-100 leading-relaxed">
+                                    “সুস্থ দাঁত ও সুন্দর হাসি প্রতিটি মানুষের আত্মবিশ্বাস বাড়িয়ে দেয়। আমাদের লক্ষ্য সাধ্যের মধ্যে আধুনিক ও নিরাপদ দাঁতের চিকিৎসা পৌঁছে দেওয়া।”
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Right Credentials & Details -->
+                        <div class="lg:col-span-7 p-8 sm:p-10 lg:p-12 flex flex-col justify-center">
+                            <div class="inline-flex items-center gap-2 text-brand-green font-bold text-sm mb-2">
+                                <i class="fa-solid fa-award"></i>
+                                <span>অভিজ্ঞতা ও প্রতিষ্ঠান পরিচিতি</span>
+                            </div>
+                            <h3 class="text-2xl sm:text-3xl font-bold text-brand-navy leading-snug">
+                                কলকাতার বিশিষ্ট প্রতিষ্ঠানের সাথে যুক্ত অভিজ্ঞ ডেন্টাল চিকিৎসক
+                            </h3>
+
+                            <div class="mt-6 bg-blue-50/80 border-l-4 border-brand-blue p-5 rounded-r-2xl">
+                                <p class="text-slate-700 text-base sm:text-lg leading-relaxed">
+                                    ডাঃ উসমান গনি কলকাতার বিশিষ্ট প্রতিষ্ঠান 
+                                    <strong class="text-brand-navy font-bold">“ডাঃ আর. আহমেদ ডেন্টাল কলেজ অ্যান্ড হসপিটাল”</strong>-এর সাথে যুক্ত।
+                                </p>
+                            </div>
+
+                            <div class="grid sm:grid-cols-2 gap-4 mt-6">
+                                <div class="flex items-start gap-3">
+                                    <div class="w-8 h-8 rounded-lg bg-emerald-100 text-brand-green flex items-center justify-center shrink-0 mt-0.5">
+                                        <i class="fa-solid fa-check"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-slate-800">আন্তরিক ও যত্নশীল চিকিৎসা</h4>
+                                        <p class="text-xs sm:text-sm text-slate-600">প্রতিটি রোগীর সমস্যা মনোযোগ সহকারে শুনে সঠিক পরামর্শ প্রদান।</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-start gap-3">
+                                    <div class="w-8 h-8 rounded-lg bg-blue-100 text-brand-blue flex items-center justify-center shrink-0 mt-0.5">
+                                        <i class="fa-solid fa-shield-virus"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-slate-800">সম্পূর্ণ জীবাণুমুক্ত পরিবেশ</h4>
+                                        <p class="text-xs sm:text-sm text-slate-600">রোগীদের নিরাপত্তার জন্য আধুনিক জীবাণুমুক্ত যন্ত্রপাতির ব্যবহার।</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-8 pt-6 border-t border-slate-100 flex flex-wrap items-center gap-4">
+                                <button type="button" onclick="openBookingModal()" class="bg-brand-blue hover:bg-brand-navy text-white font-semibold px-6 py-3 rounded-xl shadow-sm transition cursor-pointer">
+                                    ডাক্তারের সিরিয়াল নিন
+                                </button>
+                                <div class="text-sm text-slate-600">
+                                    সরাসরি কল: <a href="tel:9593300713" class="font-bold text-brand-navy hover:underline">9593300713</a> / <a href="tel:9775478802" class="font-bold text-brand-navy hover:underline">9775478802</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Schedule, Address & Contact Section -->
+        <section id="schedule" class="py-16 lg:py-24 bg-white border-t border-slate-200/70">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-12">
+                    <span class="inline-block bg-blue-50 text-brand-blue font-bold px-4 py-1.5 rounded-full text-sm mb-3">
+                        <i class="fa-solid fa-map-location-dot mr-1.5"></i> চেম্বারের তথ্য
+                    </span>
+                    <h2 class="text-2xl sm:text-4xl font-bold text-brand-navy">
+                        সময়সূচী, ঠিকানা ও যোগাযোগ
+                    </h2>
+                    <p class="text-slate-600 mt-2 text-base sm:text-lg">
+                        চেম্বারে আসার পূর্বে ফোনে বা অনলাইনে নাম লিখিয়ে নিলে আপনার সময় সাশ্রয় হবে।
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-6 lg:gap-8">
+                    <!-- Card 1: Visiting Days & Time -->
+                    <div class="bg-slate-50 rounded-3xl p-7 border border-slate-200/80 shadow-card flex flex-col justify-between">
+                        <div>
+                            <div class="w-14 h-14 rounded-2xl bg-blue-100 text-brand-blue flex items-center justify-center mb-5">
+                                <i class="fa-regular fa-clock text-2xl"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-brand-navy mb-4">রোগী দেখার দিন ও সময়</h3>
+                            
+                            <div class="bg-white rounded-2xl p-4 border border-slate-200/70 mb-4">
+                                <p class="text-xs font-semibold text-slate-500 uppercase">রোগী দেখার দিন</p>
+                                <p class="text-lg font-bold text-brand-accentRed mt-0.5">প্রতি সপ্তাহের রবিবার ও সোমবার</p>
+                            </div>
+
+                            <div class="space-y-2.5">
+                                <div class="flex items-center justify-between bg-white px-4 py-3 rounded-xl border border-slate-200/70">
+                                    <span class="text-sm font-semibold text-slate-600 flex items-center gap-2">
+                                        <i class="fa-solid fa-sun text-amber-500"></i> সকালের শিফট
+                                    </span>
+                                    <span class="font-bold text-brand-navy">সকাল ১০টা - দুপুর ২টা</span>
+                                </div>
+                                <div class="flex items-center justify-between bg-white px-4 py-3 rounded-xl border border-slate-200/70">
+                                    <span class="text-sm font-semibold text-slate-600 flex items-center gap-2">
+                                        <i class="fa-solid fa-moon text-indigo-500"></i> বিকালের শিফট
+                                    </span>
+                                    <span class="font-bold text-brand-navy">বিকাল ৪টা - রাত ৮টা</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" onclick="openBookingModal()" class="mt-6 w-full bg-brand-blue hover:bg-brand-navy text-white font-semibold py-3 rounded-xl transition cursor-pointer">
+                            স্লট বুক করুন
+                        </button>
+                    </div>
+
+                    <!-- Card 2: Address -->
+                    <div class="bg-slate-50 rounded-3xl p-7 border border-slate-200/80 shadow-card flex flex-col justify-between">
+                        <div>
+                            <div class="w-14 h-14 rounded-2xl bg-rose-100 text-brand-accentRed flex items-center justify-center mb-5">
+                                <i class="fa-solid fa-location-dot text-2xl"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-brand-navy mb-4">চেম্বারের ঠিকানা</h3>
+                            
+                            <div class="bg-white rounded-2xl p-5 border border-slate-200/70 space-y-2">
+                                <p class="text-lg font-bold text-slate-800">গৌরিক মেডিক্যাল</p>
+                                <p class="text-base font-medium text-slate-700">হসপিটাল রোড, রায়গঞ্জ, উত্তর দিনাজপুর</p>
+                                <div class="inline-flex items-center gap-1.5 bg-emerald-50 text-brand-green text-sm font-semibold px-3 py-1 rounded-lg mt-1">
+                                    <i class="fa-solid fa-hospital"></i>
+                                    <span>জীবনদীপ নার্সিং হোমের কাছে</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 flex gap-2">
+                            <a href="https://maps.app.goo.gl/DogTiYMeupzrMfAU6" target="_blank" rel="noopener noreferrer" class="flex-1 bg-brand-blue hover:bg-brand-navy text-white font-semibold py-3 px-4 rounded-xl transition flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-diamond-turn-right"></i>
+                                <span>ম্যাপে দেখুন</span>
+                            </a>
+                            <button type="button" onclick="copyText('গৌরিক মেডিক্যাল, হসপিটাল রোড, জীবনদীপ নার্সিং হোমের কাছে, রায়গঞ্জ, উত্তর দিনাজপুর - 733134', 'ঠিকানা কপি করা হয়েছে!')" class="bg-white hover:bg-slate-100 text-slate-800 border border-slate-300 font-semibold py-3 px-4 rounded-xl transition flex items-center justify-center gap-2 cursor-pointer" title="ঠিকানা কপি করুন">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Contact / Appointment Phone -->
+                    <div class="bg-gradient-to-br from-brand-navy to-brand-blue text-white rounded-3xl p-7 shadow-soft flex flex-col justify-between">
+                        <div>
+                            <div class="w-14 h-14 rounded-2xl bg-white/15 text-yellow-300 flex items-center justify-center mb-5">
+                                <i class="fa-solid fa-phone-volume text-2xl"></i>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">নাম লেখানোর জন্য যোগাযোগ করুন</h3>
+                            <p class="text-blue-100 text-sm mb-5">
+                                সিরিয়াল বুক করতে বা যে কোনো তথ্যের জন্য নিচের নম্বরে সরাসরি কল অথবা হোয়াটসঅ্যাপ করুন।
+                            </p>
+
+                            <div class="bg-white/10 backdrop-blur-xs border border-white/20 rounded-2xl p-4 text-center space-y-2">
+                                <p class="text-xs text-blue-200">হেল্পলাইন ও অ্যাপয়েন্টমেন্ট নম্বর</p>
+                                <a href="tel:9593300713" class="text-2xl sm:text-3xl font-display font-extrabold text-yellow-300 tracking-wide hover:underline block">
+                                    9593300713
+                                </a>
+                                <div class="border-t border-white/15 pt-1.5">
+                                    <a href="tel:9775478802" class="text-xl sm:text-2xl font-display font-bold text-emerald-300 tracking-wide hover:underline block">
+                                        9775478802
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 space-y-2.5">
+                            <a href="tel:9593300713" class="w-full bg-brand-green hover:bg-emerald-600 text-white font-bold py-3 rounded-xl transition flex items-center justify-center gap-2 shadow-sm">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>কল করুন: 9593300713</span>
+                            </a>
+                            <a href="tel:9775478802" class="w-full bg-white/15 hover:bg-white/25 text-white font-semibold py-2.5 rounded-xl transition flex items-center justify-center gap-2 text-sm">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>কল করুন: 9775478802</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Google Map Embed -->
+                <div class="mt-10 bg-slate-50 rounded-3xl p-4 sm:p-6 border border-slate-200/80 shadow-card">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4 px-1">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-xl bg-rose-100 text-brand-accentRed flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-map-location-dot text-lg"></i>
+                            </div>
+                            <div>
+                                <div class="flex flex-wrap items-center gap-2">
+                                    <h3 class="text-lg sm:text-xl font-bold text-brand-navy">গুগল ম্যাপে চেম্বারের অবস্থান</h3>
+                                    <span class="inline-flex items-center gap-1 bg-amber-100 text-amber-800 text-xs font-bold px-2.5 py-0.5 rounded-full">
+                                        <i class="fa-solid fa-star text-amber-500"></i> 5.0 (Google)
+                                    </span>
+                                </div>
+                                <p class="text-xs sm:text-sm text-slate-600">গৌরিক মেডিক্যাল, হসপিটাল রোড, জীবনদীপ নার্সিং হোমের কাছে, রায়গঞ্জ, উত্তর দিনাজপুর - 733134</p>
+                            </div>
+                        </div>
+                        <a href="https://maps.app.goo.gl/DogTiYMeupzrMfAU6" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 bg-white hover:bg-brand-lightBlue text-brand-blue border border-blue-200 font-semibold px-4 py-2.5 rounded-xl text-sm transition shadow-2xs">
+                            <i class="fa-solid fa-location-arrow"></i>
+                            <span>Google Maps অ্যাপে খুলুন</span>
+                        </a>
+                    </div>
+
+                    <div class="w-full h-72 sm:h-96 rounded-2xl overflow-hidden border border-slate-200 bg-slate-200">
+                        <iframe 
+                            title="Dr. Usman Gani Dental Clinic (The Smile House) - Raiganj"
+                            class="w-full h-full border-0"
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            src="https://maps.google.com/maps?q=Dr.%20Usman%20Gani%20Dental%20Clinic%20(The%20Smile%20House)%20Gourik%20Medical%20Hospital%20Road%20Raiganj%20733134&t=&z=17&ie=UTF8&iwloc=&output=embed">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-slate-900 text-slate-300 pt-12 pb-24 sm:pb-12 border-t border-slate-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-6 pb-8 border-b border-slate-800">
+                    <div class="text-center md:text-left">
+                        <h3 class="font-display font-extrabold text-2xl text-white">
+                            The <span class="text-sky-400">Smile</span> <span class="text-emerald-400">House</span>
+                        </h3>
+                        <p class="text-sm text-slate-400 mt-1">ডাঃ উসমান গনি-এর ডেন্টাল চেম্বার • সুস্থ দাঁত, সুন্দর জীবন</p>
+                    </div>
+                    <div class="flex flex-wrap justify-center items-center gap-5 text-sm font-medium">
+                        <a href="#home" class="hover:text-white transition">হোম</a>
+                        <a href="#services" class="hover:text-white transition">সেবাসমূহ</a>
+                        <a href="#chamber" class="hover:text-white transition">আধুনিক চেম্বার</a>
+                        <a href="#doctor" class="hover:text-white transition">ডাক্তার পরিচিতি</a>
+                        <a href="#schedule" class="hover:text-white transition">সময়সূচী ও ঠিকানা</a>
+                        <button type="button" onclick="openDoctorLoginModal()" class="bg-slate-800 hover:bg-slate-700 text-yellow-300 px-3.5 py-1.5 rounded-lg border border-slate-700 transition inline-flex items-center gap-1.5 cursor-pointer">
+                            <i class="fa-solid fa-user-doctor"></i>
+                            <span>Doctor Mode</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-slate-400 text-center">
+                    <p>© ২০২৬ The Smile House (ডাঃ উসমান গনি-এর ডেন্টাল চেম্বার)। সর্বস্বত্ব সংরক্ষিত।</p>
+                    <p>গৌরিক মেডিক্যাল, হসপিটাল রোড, জীবনদীপ নার্সিং হোমের কাছে, রায়গঞ্জ, উত্তর দিনাজপুর | ফোন: 9593300713</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Mobile Sticky Bottom Action Bar -->
+        <div class="sm:hidden fixed bottom-0 inset-x-0 z-30 bg-white border-t border-slate-200 p-2.5 flex gap-2 shadow-[0_-4px_20px_rgba(0,0,0,0.08)]">
+            <a href="tel:9593300713" class="flex-1 bg-brand-green text-white font-bold py-3 rounded-xl flex items-center justify-center gap-2 text-sm">
+                <i class="fa-solid fa-phone"></i>
+                <span>কল করুন</span>
+            </a>
+            <button type="button" onclick="openBookingModal()" class="flex-1 bg-brand-navy text-white font-bold py-3 rounded-xl flex items-center justify-center gap-2 text-sm">
+                <i class="fa-regular fa-calendar-check"></i>
+                <span>নাম লেখান</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- ==================== DOCTOR DASHBOARD VIEW (DOCTOR MODE) ==================== -->
+    <div id="doctor-dashboard-view" class="hidden min-h-screen bg-slate-100 pb-16">
+        <!-- Dashboard Top Header -->
+        <header class="sticky top-0 z-40 bg-brand-navy text-white shadow-md">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between gap-2">
+                <div class="flex items-center gap-2.5">
+                    <div class="w-10 h-10 rounded-xl bg-white/15 flex items-center justify-center text-yellow-300 shrink-0">
+                        <i class="fa-solid fa-user-doctor text-xl"></i>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h1 class="font-bold text-base sm:text-xl leading-tight">Doctor Mode</h1>
+                            <span class="bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 text-[10px] sm:text-xs font-bold px-2 py-0.5 rounded-full">Active</span>
+                        </div>
+                        <p class="text-xs text-blue-200">ডাঃ উসমান গনি • The Smile House</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <button type="button" onclick="openPasswordSettingsModal()" class="bg-white/10 hover:bg-white/20 text-white px-3 py-2 rounded-xl text-xs sm:text-sm font-medium transition flex items-center gap-1.5 cursor-pointer" title="পাসওয়ার্ড পরিবর্তন">
+                        <i class="fa-solid fa-key text-yellow-300"></i>
+                        <span class="hidden sm:inline">পাসওয়ার্ড</span>
+                    </button>
+                    <button type="button" onclick="exitDoctorDashboard()" class="bg-rose-600 hover:bg-rose-700 text-white px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold transition flex items-center gap-1.5 cursor-pointer">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        <span>লগআউট</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-5 space-y-5">
+            
+            <!-- Quick Action Top Bar -->
+            <div class="bg-white rounded-2xl p-4 shadow-card border border-slate-200/80 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <div class="flex items-center gap-3">
+                    <span class="w-3 h-3 rounded-full bg-emerald-500 animate-pulse shrink-0"></span>
+                    <div>
+                        <p class="text-sm font-bold text-slate-800">অ্যাপয়েন্টমেন্ট ড্যাশবোর্ড প্রস্তুত</p>
+                        <p class="text-xs text-slate-500">রোগীর নাম, বয়স, আসার সময় ও অসুবিধা নিচে বিস্তারিত দেখুন</p>
+                    </div>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <button type="button" onclick="openWalkinModal()" class="flex-1 sm:flex-none bg-brand-blue hover:bg-brand-navy text-white font-semibold px-4 py-2.5 rounded-xl text-sm shadow-xs transition flex items-center justify-center gap-2 cursor-pointer">
+                        <i class="fa-solid fa-user-plus"></i>
+                        <span>নতুন রোগী যোগ করুন</span>
+                    </button>
+                    <button type="button" onclick="copyPatientSummaryForWhatsApp()" class="bg-emerald-50 hover:bg-emerald-100 text-brand-green border border-emerald-200 font-semibold px-3.5 py-2.5 rounded-xl text-sm transition flex items-center justify-center gap-1.5 cursor-pointer" title="তালিকা কপি করুন">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <span class="hidden sm:inline">লিস্ট কপি</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Summary Statistics Cards (Mobile 2-col, Desktop 5-col) -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4">
+                <div class="bg-white rounded-2xl p-4 border border-slate-200/80 shadow-card">
+                    <div class="flex items-center justify-between text-slate-500 text-xs font-semibold mb-1">
+                        <span>মোট অ্যাপয়েন্টমেন্ট</span>
+                        <i class="fa-solid fa-users text-brand-blue"></i>
+                    </div>
+                    <p id="stat-total" class="text-2xl sm:text-3xl font-display font-extrabold text-brand-navy">0</p>
+                </div>
+
+                <div class="bg-amber-50 rounded-2xl p-4 border border-amber-200/80 shadow-card">
+                    <div class="flex items-center justify-between text-amber-800 text-xs font-semibold mb-1">
+                        <span>অপেক্ষমাণ (Pending)</span>
+                        <i class="fa-regular fa-hourglass-half text-amber-600"></i>
+                    </div>
+                    <p id="stat-pending" class="text-2xl sm:text-3xl font-display font-extrabold text-amber-700">0</p>
+                </div>
+
+                <div class="bg-emerald-50 rounded-2xl p-4 border border-emerald-200/80 shadow-card">
+                    <div class="flex items-center justify-between text-emerald-800 text-xs font-semibold mb-1">
+                        <span>দেখা সম্পন্ন (Done)</span>
+                        <i class="fa-solid fa-circle-check text-emerald-600"></i>
+                    </div>
+                    <p id="stat-completed" class="text-2xl sm:text-3xl font-display font-extrabold text-emerald-700">0</p>
+                </div>
+
+                <div class="bg-sky-50 rounded-2xl p-4 border border-sky-200/80 shadow-card">
+                    <div class="flex items-center justify-between text-sky-800 text-xs font-semibold mb-1">
+                        <span>সকালের শিফট</span>
+                        <i class="fa-solid fa-sun text-amber-500"></i>
+                    </div>
+                    <p id="stat-morning" class="text-2xl sm:text-3xl font-display font-extrabold text-sky-800">0</p>
+                </div>
+
+                <div class="col-span-2 sm:col-span-1 bg-indigo-50 rounded-2xl p-4 border border-indigo-200/80 shadow-card">
+                    <div class="flex items-center justify-between text-indigo-800 text-xs font-semibold mb-1">
+                        <span>বিকালের শিফট</span>
+                        <i class="fa-solid fa-moon text-indigo-600"></i>
+                    </div>
+                    <p id="stat-evening" class="text-2xl sm:text-3xl font-display font-extrabold text-indigo-800">0</p>
+                </div>
+            </div>
+
+            <!-- Filters & Search Section -->
+            <div class="bg-white rounded-2xl p-4 sm:p-5 border border-slate-200/80 shadow-card space-y-3">
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
+                    <div class="relative">
+                        <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 text-sm"></i>
+                        <input type="text" id="filter-search" oninput="renderAppointments()" placeholder="নাম, ফোন বা অসুবিধা খুঁজুন..." class="w-full pl-9 pr-3.5 py-2.5 rounded-xl border border-slate-300 focus:border-brand-blue focus:ring-2 focus:ring-blue-100 outline-none text-sm">
+                    </div>
+
+                    <select id="filter-day" onchange="renderAppointments()" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:border-brand-blue outline-none bg-white text-sm font-medium text-slate-700">
+                        <option value="ALL">সব দিন (রবিবার ও সোমবার)</option>
+                        <option value="রবিবার">শুধুমাত্র রবিবার (Sunday)</option>
+                        <option value="সোমবার">শুধুমাত্র সোমবার (Monday)</option>
+                    </select>
+
+                    <select id="filter-slot" onchange="renderAppointments()" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:border-brand-blue outline-none bg-white text-sm font-medium text-slate-700">
+                        <option value="ALL">সব সময় (সকাল ও বিকাল)</option>
+                        <option value="সকাল ১০টা - দুপুর ২টা">সকাল ১০টা - দুপুর ২টা</option>
+                        <option value="বিকাল ৪টা - রাত ৮টা">বিকাল ৪টা - রাত ৮টা</option>
+                    </select>
+
+                    <select id="filter-status" onchange="renderAppointments()" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:border-brand-blue outline-none bg-white text-sm font-medium text-slate-700">
+                        <option value="ALL">সব স্ট্যাটাস</option>
+                        <option value="pending">অপেক্ষমাণ (Pending)</option>
+                        <option value="completed">সম্পন্ন হয়েছে (Completed)</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Detailed Patient Appointment Cards List -->
+            <div>
+                <div class="flex items-center justify-between mb-3 px-1">
+                    <h2 class="text-lg font-bold text-brand-navy">রোগীদের বিস্তারিত তালিকা (<span id="filtered-count">0</span> জন)</h2>
+                    <button type="button" onclick="resetFilters()" class="text-xs font-semibold text-brand-blue hover:underline cursor-pointer">ফিল্টার রিসেট করুন</button>
+                </div>
+
+                <!-- Empty State -->
+                <div id="empty-appointments" class="hidden bg-white rounded-3xl p-10 text-center border border-slate-200/80 shadow-card">
+                    <div class="w-16 h-16 rounded-full bg-slate-100 text-slate-400 flex items-center justify-center mx-auto mb-3 text-2xl">
+                        <i class="fa-regular fa-calendar-xmark"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-700">কোনো অ্যাপয়েন্টমেন্ট পাওয়া যায়নি</h3>
+                    <p class="text-sm text-slate-500 mt-1">বর্তমানে নির্বাচিত ফিল্টারে কোনো রোগীর নাম নেই।</p>
+                </div>
+
+                <!-- Appointments Container -->
+                <div id="appointments-list" class="grid md:grid-cols-2 gap-4">
+                    <!-- Rendered dynamically via JavaScript -->
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- ==================== MODALS ==================== -->
+
+    <!-- 1. Patient Appointment Booking Modal (With Age Field) -->
+    <div id="booking-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-slate-900/60 backdrop-blur-xs">
+        <div class="bg-white rounded-3xl max-w-lg w-full max-h-[90vh] overflow-y-auto shadow-2xl border border-slate-100">
+            <div class="bg-gradient-to-r from-brand-navy to-brand-blue text-white px-6 py-5 flex items-center justify-between sticky top-0 z-10">
+                <div>
+                    <h3 class="text-xl font-bold">অ্যাপয়েন্টমেন্ট / নাম লেখান</h3>
+                    <p class="text-xs text-blue-100 mt-0.5">The Smile House — ডাঃ উসমান গনি-এর ডেন্টাল চেম্বার</p>
+                </div>
+                <button type="button" onclick="closeBookingModal()" aria-label="বন্ধ করুন" class="w-9 h-9 rounded-full bg-white/15 hover:bg-white/25 flex items-center justify-center text-white transition cursor-pointer">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <form id="appointment-form" onsubmit="handleBookingSubmit(event)" class="p-6 space-y-4">
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <div class="sm:col-span-2">
+                        <label for="patient-name" class="block text-sm font-semibold text-slate-700 mb-1">রোগীর নাম <span class="text-rose-600">*</span></label>
+                        <input type="text" id="patient-name" required placeholder="পূর্ণ নাম লিখুন" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-brand-blue focus:ring-2 focus:ring-blue-100 outline-none transition">
+                    </div>
+                    <div>
+                        <label for="patient-age" class="block text-sm font-semibold text-slate-700 mb-1">বয়স (বছর) <span class="text-rose-600">*</span></label>
+                        <input type="number" id="patient-age" min="1" max="120" required placeholder="যেমন: ৩২" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-brand-blue focus:ring-2 focus:ring-blue-100 outline-none transition">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="patient-phone" class="block text-sm font-semibold text-slate-700 mb-1">মোবাইল নম্বর <span class="text-rose-600">*</span></label>
+                    <input type="tel" id="patient-phone" required placeholder="আপনার ১০ সংখ্যার মোবাইল নম্বর" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-brand-blue focus:ring-2 focus:ring-blue-100 outline-none transition">
+                </div>
+
+                <div class="grid sm:grid-cols-2 gap-4">
+                    <div>
+                        <label for="visit-day" class="block text-sm font-semibold text-slate-700 mb-1">পছন্দের দিন <span class="text-rose-600">*</span></label>
+                        <select id="visit-day" required class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:border-brand-blue focus:ring-2 focus:ring-blue-100 outline-none bg-white transition">
+                            <option value="রবিবার">রবিবার (Sunday)</option>
+                            <option value="সোমবার">সোমবার (Monday)</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="visit-slot" class="block text-sm font-semibold text-slate-700 mb-1">কটায় আসবেন (সময়) <span class="text-rose-600">*</span></label>
+                        <select id="visit-slot" required class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:border-brand-blue focus:ring-2 focus:ring-blue-100 outline-none bg-white transition">
+                            <option value="সকাল ১০টা - দুপুর ২টা">সকাল ১০টা - দুপুর ২টা</option>
+                            <option value="বিকাল ৪টা - রাত ৮টা">বিকাল ৪টা - রাত ৮টা</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="dental-issue" class="block text-sm font-semibold text-slate-700 mb-1">কি অসুবিধা (দাঁতের সমস্যা) <span class="text-rose-600">*</span></label>
+                    <select id="dental-issue" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:border-brand-blue focus:ring-2 focus:ring-blue-100 outline-none bg-white transition">
+                        <option value="দাঁতে ব্যথা">দাঁতে ব্যথা</option>
+                        <option value="দাঁতে ক্ষয়">দাঁতে ক্ষয়</option>
+                        <option value="মাড়ির সমস্যা">মাড়ির সমস্যা</option>
+                        <option value="দাঁতের অন্যান্য সমস্যা">দাঁতের অন্যান্য সমস্যা</option>
+                        <option value="General Dentistry (সাধারণ দাঁতের চিকিৎসা)">General Dentistry (সাধারণ দাঁতের চিকিৎসা)</option>
+                        <option value="Orthodontic Treatment (বাঁকা দাঁত সোজা করা)">Orthodontic Treatment (বাঁকা দাঁত সোজা করা)</option>
+                        <option value="Root Canal Treatment (RCT)">Root Canal Treatment (RCT)</option>
+                        <option value="Tooth Extraction (দাঁত তোলা)">Tooth Extraction (দাঁত তোলা)</option>
+                        <option value="Dental Crowns & Bridges (ক্যাপ ও ব্রিজ)">Dental Crowns & Bridges (ক্যাপ ও ব্রিজ)</option>
+                        <option value="Dental Implants (ডেন্টাল ইমপ্ল্যান্ট)">Dental Implants (ডেন্টাল ইমপ্ল্যান্ট)</option>
+                        <option value="Cosmetic Dentistry (কসমেটিক ডেন্টিস্ট্রি)">Cosmetic Dentistry (কসমেটিক ডেন্টিস্ট্রি)</option>
+                    </select>
+                </div>
+
+                <!-- Booking Confirmation Box -->
+                <div id="booking-confirmation" class="hidden bg-emerald-50 border border-emerald-200 rounded-2xl p-4 space-y-3">
+                    <div class="flex items-start gap-2.5 text-emerald-900">
+                        <i class="fa-solid fa-circle-check text-brand-green text-xl mt-0.5"></i>
+                        <div>
+                            <h4 class="font-bold text-base">আপনার অ্যাপয়েন্টমেন্ট নথিভুক্ত হয়েছে!</h4>
+                            <p id="confirmation-details" class="text-xs sm:text-sm text-emerald-800 mt-1 leading-relaxed"></p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col sm:flex-row gap-2 pt-1">
+                        <a id="whatsapp-send-btn" href="#" target="_blank" rel="noopener noreferrer" class="flex-1 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold py-2.5 px-4 rounded-xl text-center text-sm flex items-center justify-center gap-2 shadow-xs">
+                            <i class="fa-brands fa-whatsapp text-lg"></i>
+                            <span>WhatsApp-এ পাঠান</span>
+                        </a>
+                        <a href="tel:9593300713" class="flex-1 bg-brand-navy hover:bg-brand-blue text-white font-bold py-2.5 px-4 rounded-xl text-center text-sm flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>কল (9593300713)</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pt-2 flex flex-col sm:flex-row gap-2.5">
+                    <button type="submit" class="flex-1 bg-brand-blue hover:bg-brand-navy text-white font-bold py-3 px-5 rounded-xl shadow-sm transition flex items-center justify-center gap-2 cursor-pointer">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <span>বুকিং নিশ্চিত করুন</span>
+                    </button>
+                    <button type="button" onclick="closeBookingModal()" class="sm:w-auto bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold py-3 px-5 rounded-xl transition cursor-pointer">
+                        বন্ধ করুন
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- 2. Doctor Password Login Modal (Password: usmangani@2026) -->
+    <div id="doctor-login-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-slate-900/70 backdrop-blur-xs">
+        <div class="bg-white rounded-3xl max-w-sm w-full overflow-hidden shadow-2xl border border-slate-100">
+            <div class="bg-brand-navy text-white px-6 py-5 flex items-center justify-between">
+                <div class="flex items-center gap-2.5">
+                    <div class="w-9 h-9 rounded-xl bg-white/15 flex items-center justify-center text-yellow-300">
+                        <i class="fa-solid fa-user-doctor"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold">Doctor Mode লগইন</h3>
+                        <p class="text-xs text-blue-200">ডাঃ উসমান গনি-এর ড্যাশবোর্ড</p>
+                    </div>
+                </div>
+                <button type="button" onclick="closeDoctorLoginModal()" class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white cursor-pointer">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <form onsubmit="handleDoctorLogin(event)" class="p-6 space-y-4">
+                <div>
+                    <label for="doctor-password-input" class="block text-sm font-semibold text-slate-700 mb-1.5">পাসওয়ার্ড লিখুন</label>
+                    <div class="relative">
+                        <input type="password" id="doctor-password-input" required autocomplete="off" placeholder="পাসওয়ার্ড দিন" class="w-full text-center text-base font-semibold px-10 py-3 rounded-xl border border-slate-300 focus:border-brand-blue focus:ring-2 focus:ring-blue-100 outline-none">
+                        <button type="button" onclick="togglePasswordVisibility()" aria-label="পাসওয়ার্ড দেখুন" class="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-brand-navy p-1 cursor-pointer">
+                            <i id="password-eye-icon" class="fa-regular fa-eye"></i>
+                        </button>
+                    </div>
+                    <p id="password-error-msg" class="hidden text-xs font-semibold text-rose-600 mt-1.5 text-center">ভুল পাসওয়ার্ড! সঠিক পাসওয়ার্ড দিয়ে আবার চেষ্টা করুন।</p>
+                </div>
+
+                <button type="submit" class="w-full bg-brand-navy hover:bg-brand-blue text-white font-bold py-3 rounded-xl shadow-sm transition flex items-center justify-center gap-2 cursor-pointer">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                    <span>ড্যাশবোর্ড খুলুন</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- 3. Walk-in Patient Modal (Add offline patient inside Doctor Mode) -->
+    <div id="walkin-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-slate-900/60 backdrop-blur-xs">
+        <div class="bg-white rounded-3xl max-w-md w-full overflow-hidden shadow-2xl border border-slate-100">
+            <div class="bg-brand-blue text-white px-6 py-4 flex items-center justify-between">
+                <h3 class="text-lg font-bold">সরাসরি নতুন রোগী যোগ করুন</h3>
+                <button type="button" onclick="closeWalkinModal()" class="w-8 h-8 rounded-full bg-white/15 hover:bg-white/25 flex items-center justify-center text-white cursor-pointer">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <form onsubmit="handleWalkinSubmit(event)" class="p-6 space-y-3.5">
+                <div class="grid grid-cols-3 gap-3">
+                    <div class="col-span-2">
+                        <label class="block text-xs font-semibold text-slate-700 mb-1">রোগীর নাম *</label>
+                        <input type="text" id="walkin-name" required placeholder="নাম লিখুন" class="w-full px-3.5 py-2 rounded-xl border border-slate-300 text-sm outline-none focus:border-brand-blue">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-700 mb-1">বয়স *</label>
+                        <input type="number" id="walkin-age" min="1" max="120" required placeholder="বয়স" class="w-full px-3.5 py-2 rounded-xl border border-slate-300 text-sm outline-none focus:border-brand-blue">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-700 mb-1">মোবাইল নম্বর *</label>
+                    <input type="tel" id="walkin-phone" required placeholder="মোবাইল নম্বর" class="w-full px-3.5 py-2 rounded-xl border border-slate-300 text-sm outline-none focus:border-brand-blue">
+                </div>
+                <div class="grid grid-cols-2 gap-3">
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-700 mb-1">দিন *</label>
+                        <select id="walkin-day" class="w-full px-3 py-2 rounded-xl border border-slate-300 text-sm bg-white outline-none">
+                            <option value="রবিবার">রবিবার</option>
+                            <option value="সোমবার">সোমবার</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-700 mb-1">সময় *</label>
+                        <select id="walkin-slot" class="w-full px-3 py-2 rounded-xl border border-slate-300 text-sm bg-white outline-none">
+                            <option value="সকাল ১০টা - দুপুর ২টা">সকাল ১০টা - দুপুর ২টা</option>
+                            <option value="বিকাল ৪টা - রাত ৮টা">বিকাল ৪টা - রাত ৮টা</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-700 mb-1">কি অসুবিধা *</label>
+                    <input type="text" id="walkin-issue" required placeholder="যেমন: দাঁতে ব্যথা / স্কেলিং / RCT" class="w-full px-3.5 py-2 rounded-xl border border-slate-300 text-sm outline-none focus:border-brand-blue">
+                </div>
+                <div class="pt-2 flex gap-2">
+                    <button type="submit" class="flex-1 bg-brand-green hover:bg-emerald-700 text-white font-bold py-2.5 rounded-xl text-sm cursor-pointer">তালিকায় যোগ করুন</button>
+                    <button type="button" onclick="closeWalkinModal()" class="bg-slate-100 text-slate-700 font-semibold px-4 py-2.5 rounded-xl text-sm cursor-pointer">বাতিল</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- 4. Password Settings Modal -->
+    <div id="password-settings-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-slate-900/60 backdrop-blur-xs">
+        <div class="bg-white rounded-3xl max-w-sm w-full overflow-hidden shadow-2xl border border-slate-100">
+            <div class="bg-slate-800 text-white px-6 py-4 flex items-center justify-between">
+                <h3 class="text-base font-bold">পাসওয়ার্ড পরিবর্তন</h3>
+                <button type="button" onclick="closePasswordSettingsModal()" class="w-8 h-8 rounded-full bg-white/15 flex items-center justify-center text-white cursor-pointer">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <form onsubmit="handlePasswordChange(event)" class="p-6 space-y-4">
+                <div>
+                    <label class="block text-xs font-semibold text-slate-700 mb-1">নতুন পাসওয়ার্ড দিন (কমপক্ষে ৪ অক্ষর)</label>
+                    <input type="text" minlength="4" maxlength="40" id="new-password-input" required placeholder="নতুন পাসওয়ার্ড লিখুন" class="w-full text-center text-base font-semibold px-4 py-2.5 rounded-xl border border-slate-300 outline-none focus:border-brand-blue">
+                </div>
+                <div class="flex gap-2">
+                    <button type="submit" class="flex-1 bg-brand-navy hover:bg-brand-blue text-white font-bold py-2.5 rounded-xl text-sm cursor-pointer">সেভ করুন</button>
+                    <button type="button" onclick="resetDefaultPassword()" class="bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold px-3 py-2.5 rounded-xl text-xs cursor-pointer">ডিফল্ট রিসেট</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Toast Notification Message Box -->
+    <div id="toast-box" class="fixed bottom-20 sm:bottom-6 right-4 z-50 hidden items-center gap-2.5 bg-slate-900 text-white px-4 py-3 rounded-xl shadow-lg text-sm font-medium border border-slate-700">
+        <i class="fa-solid fa-circle-check text-emerald-400"></i>
+        <span id="toast-message">সম্পন্ন হয়েছে!</span>
+    </div>
+
+    <!-- Standard Script (Works reliably everywhere including GitHub Pages & local files) -->
+    <script>
+        // Storage Keys & Default Password
+        const DEFAULT_DOCTOR_PASSWORD = 'usmangani@2026';
+        const PWD_STORAGE_KEY = 'smile_house_doctor_pwd_v3';
+        const APPOINTMENTS_STORAGE_KEY = 'smile_house_appointments_v3';
+
+        // Load saved password or fallback to usmangani@2026
+        let currentDoctorPassword = DEFAULT_DOCTOR_PASSWORD;
+        try {
+            const savedPwd = localStorage.getItem(PWD_STORAGE_KEY);
+            if (savedPwd && savedPwd.trim().length >= 4) {
+                currentDoctorPassword = savedPwd.trim();
+            }
+        } catch (e) {
+            currentDoctorPassword = DEFAULT_DOCTOR_PASSWORD;
+        }
+
+        // Load appointments from localStorage (with initial sample entries if empty so doctor sees layout immediately)
+        function loadAppointments() {
+            try {
+                const raw = localStorage.getItem(APPOINTMENTS_STORAGE_KEY);
+                if (raw) {
+                    const parsed = JSON.parse(raw);
+                    if (Array.isArray(parsed)) return parsed;
+                }
+            } catch (e) {
+                console.warn('Storage read fallback');
+            }
+            const initialSamples = [
+                {
+                    id: 'sample_1',
+                    name: 'রহিম উদ্দিন',
+                    age: '34',
+                    phone: '9832145670',
+                    day: 'রবিবার',
+                    slot: 'সকাল ১০টা - দুপুর ২টা',
+                    issue: 'দাঁতে ব্যথা',
+                    status: 'pending',
+                    createdAtText: 'নমুনা বুকিং'
+                },
+                {
+                    id: 'sample_2',
+                    name: 'সুমনা সরকার',
+                    age: '27',
+                    phone: '9733456789',
+                    day: 'সোমবার',
+                    slot: 'বিকাল ৪টা - রাত ৮টা',
+                    issue: 'Root Canal Treatment (RCT)',
+                    status: 'pending',
+                    createdAtText: 'নমুনা বুকিং'
+                }
+            ];
+            saveAppointments(initialSamples);
+            return initialSamples;
+        }
+
+        function saveAppointments(list) {
+            try {
+                localStorage.setItem(APPOINTMENTS_STORAGE_KEY, JSON.stringify(list));
+            } catch (e) {
+                console.warn('Storage write fallback');
+            }
+        }
+
+        let allAppointments = loadAppointments();
+
+        // ==================== MOBILE MENU ====================
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        document.querySelectorAll('.mobile-nav-link').forEach(link => {
+            link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+        });
+
+        // ==================== BOOKING MODAL ====================
+        const bookingModal = document.getElementById('booking-modal');
+        const dentalIssueSelect = document.getElementById('dental-issue');
+        const bookingConfirmation = document.getElementById('booking-confirmation');
+        const confirmationDetails = document.getElementById('confirmation-details');
+        const whatsappSendBtn = document.getElementById('whatsapp-send-btn');
+
+        function openBookingModal(selectedIssue = '') {
+            if (selectedIssue) {
+                dentalIssueSelect.value = selectedIssue;
+            }
+            bookingConfirmation.classList.add('hidden');
+            bookingModal.classList.remove('hidden');
+            bookingModal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeBookingModal() {
+            bookingModal.classList.add('hidden');
+            bookingModal.classList.remove('flex');
+            document.body.style.overflow = '';
+        }
+
+        bookingModal.addEventListener('click', (e) => {
+            if (e.target === bookingModal) closeBookingModal();
+        });
+
+        function handleBookingSubmit(event) {
+            event.preventDefault();
+            try {
+                const name = document.getElementById('patient-name').value.trim();
+                const age = document.getElementById('patient-age').value.trim();
+                const phone = document.getElementById('patient-phone').value.trim();
+                const day = document.getElementById('visit-day').value;
+                const slot = document.getElementById('visit-slot').value;
+                const issue = document.getElementById('dental-issue').value;
+
+                const newRecord = {
+                    id: 'apt_' + Date.now(),
+                    name,
+                    age,
+                    phone,
+                    day,
+                    slot,
+                    issue,
+                    status: 'pending',
+                    createdAtText: new Date().toLocaleString('bn-IN', {
+                        day: 'numeric',
+                        month: 'short',
+                        hour: '2-digit',
+                        minute: '2-digit'
+                    })
+                };
+
+                allAppointments.unshift(newRecord);
+                saveAppointments(allAppointments);
+
+                const summaryText = `রোগী: ${name} (বয়স: ${age} বছর) | ফোন: ${phone} | দিন: ${day} | সময়: ${slot} | সমস্যা: ${issue}`;
+                confirmationDetails.textContent = summaryText;
+
+                const waMessage = encodeURIComponent(
+                    `নমস্কার, আমি "The Smile House" (ডাঃ উসমান গনি-এর ডেন্টাল চেম্বার)-এ নাম লেখাতে চাই।\n` +
+                    `• রোগীর নাম: ${name}\n` +
+                    `• বয়স: ${age} বছর\n` +
+                    `• মোবাইল: ${phone}\n` +
+                    `• দিন: ${day}\n` +
+                    `• সময়: ${slot}\n` +
+                    `• সমস্যা: ${issue}`
+                );
+                whatsappSendBtn.href = `https://wa.me/919593300713?text=${waMessage}`;
+
+                bookingConfirmation.classList.remove('hidden');
+                showToast('অ্যাপয়েন্টমেন্ট তথ্য সংরক্ষিত হয়েছে! WhatsApp বা কল করে নিশ্চিত করুন।');
+            } catch (err) {
+                showToast('দয়া করে আবার চেষ্টা করুন।');
+            }
+        }
+
+        // ==================== DOCTOR MODE LOGIN & DASHBOARD ====================
+        function openDoctorLoginModal() {
+            mobileMenu.classList.add('hidden');
+            const pwdInput = document.getElementById('doctor-password-input');
+            const eyeIcon = document.getElementById('password-eye-icon');
+            const errMsg = document.getElementById('password-error-msg');
+            pwdInput.value = '';
+            pwdInput.type = 'password';
+            if (eyeIcon) eyeIcon.className = 'fa-regular fa-eye';
+            errMsg.classList.add('hidden');
+
+            const modal = document.getElementById('doctor-login-modal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            setTimeout(() => pwdInput.focus(), 100);
+        }
+
+        function closeDoctorLoginModal() {
+            const modal = document.getElementById('doctor-login-modal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        document.getElementById('doctor-login-modal').addEventListener('click', (e) => {
+            if (e.target.id === 'doctor-login-modal') closeDoctorLoginModal();
+        });
+
+        function togglePasswordVisibility() {
+            const pwdInput = document.getElementById('doctor-password-input');
+            const eyeIcon = document.getElementById('password-eye-icon');
+            if (pwdInput.type === 'password') {
+                pwdInput.type = 'text';
+                eyeIcon.className = 'fa-regular fa-eye-slash';
+            } else {
+                pwdInput.type = 'password';
+                eyeIcon.className = 'fa-regular fa-eye';
+            }
+        }
+
+        function handleDoctorLogin(event) {
+            event.preventDefault();
+            const enteredPwd = document.getElementById('doctor-password-input').value.trim();
+            if (enteredPwd === currentDoctorPassword || enteredPwd === DEFAULT_DOCTOR_PASSWORD) {
+                closeDoctorLoginModal();
+                document.getElementById('patient-website-view').classList.add('hidden');
+                document.getElementById('doctor-dashboard-view').classList.remove('hidden');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                updateDashboardStats();
+                renderAppointments();
+                showToast('স্বাগতম ডাঃ উসমান গনি! Doctor Mode চালু হয়েছে।');
+            } else {
+                document.getElementById('password-error-msg').classList.remove('hidden');
+            }
+        }
+
+        function exitDoctorDashboard() {
+            document.getElementById('doctor-dashboard-view').classList.add('hidden');
+            document.getElementById('patient-website-view').classList.remove('hidden');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // ==================== DASHBOARD STATS & RENDERING ====================
+        function updateDashboardStats() {
+            const total = allAppointments.length;
+            const pending = allAppointments.filter(a => a.status === 'pending').length;
+            const completed = allAppointments.filter(a => a.status === 'completed').length;
+            const morning = allAppointments.filter(a => a.slot && a.slot.includes('সকাল')).length;
+            const evening = allAppointments.filter(a => a.slot && a.slot.includes('বিকাল')).length;
+
+            document.getElementById('stat-total').textContent = total;
+            document.getElementById('stat-pending').textContent = pending;
+            document.getElementById('stat-completed').textContent = completed;
+            document.getElementById('stat-morning').textContent = morning;
+            document.getElementById('stat-evening').textContent = evening;
+        }
+
+        function renderAppointments() {
+            const searchVal = (document.getElementById('filter-search')?.value || '').trim().toLowerCase();
+            const dayVal = document.getElementById('filter-day')?.value || 'ALL';
+            const slotVal = document.getElementById('filter-slot')?.value || 'ALL';
+            const statusVal = document.getElementById('filter-status')?.value || 'ALL';
+
+            const filtered = allAppointments.filter(item => {
+                const matchSearch = !searchVal ||
+                    (item.name && item.name.toLowerCase().includes(searchVal)) ||
+                    (item.phone && item.phone.includes(searchVal)) ||
+                    (item.issue && item.issue.toLowerCase().includes(searchVal));
+                const matchDay = dayVal === 'ALL' || item.day === dayVal;
+                const matchSlot = slotVal === 'ALL' || item.slot === slotVal;
+                const matchStatus = statusVal === 'ALL' || item.status === statusVal;
+                return matchSearch && matchDay && matchSlot && matchStatus;
+            });
+
+            document.getElementById('filtered-count').textContent = filtered.length;
+            const container = document.getElementById('appointments-list');
+            const emptyState = document.getElementById('empty-appointments');
+
+            if (filtered.length === 0) {
+                container.innerHTML = '';
+                emptyState.classList.remove('hidden');
+                return;
+            }
+
+            emptyState.classList.add('hidden');
+            container.innerHTML = filtered.map((patient, index) => {
+                const serialNo = filtered.length - index;
+                const cleanPhone = (patient.phone || '').replace(/\D/g, '');
+                const waPhone = cleanPhone.length === 10 ? '91' + cleanPhone : cleanPhone;
+
+                const isDone = patient.status === 'completed';
+                const statusBadge = isDone
+                    ? `<span class="inline-flex items-center gap-1 bg-emerald-100 text-emerald-800 text-xs font-bold px-2.5 py-1 rounded-full"><i class="fa-solid fa-circle-check"></i> সম্পন্ন</span>`
+                    : `<span class="inline-flex items-center gap-1 bg-amber-100 text-amber-800 text-xs font-bold px-2.5 py-1 rounded-full"><i class="fa-regular fa-clock"></i> অপেক্ষমাণ</span>`;
+                const cardBorder = isDone ? 'border-emerald-300 bg-emerald-50/20' : 'border-amber-300/80';
+
+                return `
+                <div class="bg-white rounded-2xl p-4 sm:p-5 border ${cardBorder} shadow-card flex flex-col justify-between gap-4">
+                    <div>
+                        <div class="flex items-start justify-between gap-2 pb-3 border-b border-slate-100">
+                            <div class="flex items-center gap-3">
+                                <span class="w-9 h-9 rounded-xl bg-brand-navy text-white font-display font-bold text-sm flex items-center justify-center shrink-0">
+                                    #${serialNo}
+                                </span>
+                                <div>
+                                    <div class="flex flex-wrap items-center gap-2">
+                                        <h3 class="text-lg font-bold text-brand-navy leading-tight">${escapeHtml(patient.name)}</h3>
+                                        <span class="bg-blue-50 text-brand-blue border border-blue-100 text-xs font-bold px-2 py-0.5 rounded-md">
+                                            বয়স: ${escapeHtml(String(patient.age || '—'))} বছর
+                                        </span>
+                                    </div>
+                                    <p class="text-xs text-slate-500 mt-0.5">
+                                        <i class="fa-solid fa-phone text-slate-400 mr-1"></i>${escapeHtml(patient.phone)}
+                                        ${patient.createdAtText ? `<span class="mx-1.5">•</span><span>${escapeHtml(patient.createdAtText)}</span>` : ''}
+                                    </p>
+                                </div>
+                            </div>
+                            ${statusBadge}
+                        </div>
+
+                        <div class="mt-3 space-y-2 text-sm">
+                            <div class="flex items-center gap-2 bg-slate-50 px-3 py-2 rounded-xl border border-slate-100">
+                                <i class="fa-regular fa-calendar-check text-brand-blue shrink-0"></i>
+                                <span class="font-semibold text-slate-700">আসার সময়:</span>
+                                <span class="font-bold text-brand-navy">${escapeHtml(patient.day)} (${escapeHtml(patient.slot)})</span>
+                            </div>
+
+                            <div class="flex items-start gap-2 bg-rose-50/70 px-3 py-2 rounded-xl border border-rose-100">
+                                <i class="fa-solid fa-tooth text-brand-accentRed mt-0.5 shrink-0"></i>
+                                <div>
+                                    <span class="font-semibold text-slate-700">অসুবিধা: </span>
+                                    <span class="font-bold text-brand-accentRed">${escapeHtml(patient.issue)}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-2 border-t border-slate-100 space-y-2">
+                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                            <a href="tel:${escapeHtml(cleanPhone)}" class="bg-brand-navy hover:bg-brand-blue text-white text-xs font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 transition">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>কল করুন</span>
+                            </a>
+                            <a href="https://wa.me/${escapeHtml(waPhone)}" target="_blank" rel="noopener noreferrer" class="bg-[#25D366] hover:bg-[#1ebe5d] text-white text-xs font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 transition">
+                                <i class="fa-brands fa-whatsapp text-sm"></i>
+                                <span>WhatsApp</span>
+                            </a>
+                            ${!isDone ? `
+                                <button type="button" onclick="togglePatientStatus('${patient.id}', 'completed')" class="bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 transition cursor-pointer">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>সম্পন্ন</span>
+                                </button>
+                            ` : `
+                                <button type="button" onclick="togglePatientStatus('${patient.id}', 'pending')" class="bg-amber-500 hover:bg-amber-600 text-white text-xs font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 transition cursor-pointer">
+                                    <i class="fa-solid fa-rotate-left"></i>
+                                    <span>অপেক্ষমাণ</span>
+                                </button>
+                            `}
+                            <button type="button" onclick="requestDeletePatient('${patient.id}')" class="bg-slate-100 hover:bg-rose-100 text-slate-700 hover:text-rose-700 text-xs font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 transition cursor-pointer">
+                                <i class="fa-regular fa-trash-can"></i>
+                                <span>ডিলিট</span>
+                            </button>
+                        </div>
+
+                        <div id="del-confirm-${patient.id}" class="hidden items-center justify-between bg-rose-50 border border-rose-200 px-3 py-2 rounded-xl text-xs">
+                            <span class="font-semibold text-rose-800">তালিকা থেকে মুছে ফেলবেন?</span>
+                            <div class="flex gap-2">
+                                <button type="button" onclick="confirmDeletePatient('${patient.id}')" class="bg-rose-600 text-white font-bold px-3 py-1 rounded-lg cursor-pointer">হ্যাঁ</button>
+                                <button type="button" onclick="cancelDeletePatient('${patient.id}')" class="bg-white text-slate-700 border border-slate-300 font-semibold px-2.5 py-1 rounded-lg cursor-pointer">না</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                `;
+            }).join('');
+        }
+
+        function togglePatientStatus(id, newStatus) {
+            const patient = allAppointments.find(p => p.id === id);
+            if (patient) {
+                patient.status = newStatus;
+                saveAppointments(allAppointments);
+                updateDashboardStats();
+                renderAppointments();
+                showToast(newStatus === 'completed' ? 'রোগীর দেখা সম্পন্ন হিসেবে চিহ্নিত হয়েছে।' : 'অপেক্ষমাণ তালিকায় নেওয়া হয়েছে।');
+            }
+        }
+
+        function requestDeletePatient(id) {
+            const box = document.getElementById(`del-confirm-${id}`);
+            if (box) {
+                box.classList.remove('hidden');
+                box.classList.add('flex');
+            }
+        }
+
+        function cancelDeletePatient(id) {
+            const box = document.getElementById(`del-confirm-${id}`);
+            if (box) {
+                box.classList.add('hidden');
+                box.classList.remove('flex');
+            }
+        }
+
+        function confirmDeletePatient(id) {
+            allAppointments = allAppointments.filter(p => p.id !== id);
+            saveAppointments(allAppointments);
+            updateDashboardStats();
+            renderAppointments();
+            showToast('রেকর্ডটি মুছে ফেলা হয়েছে।');
+        }
+
+        function resetFilters() {
+            document.getElementById('filter-search').value = '';
+            document.getElementById('filter-day').value = 'ALL';
+            document.getElementById('filter-slot').value = 'ALL';
+            document.getElementById('filter-status').value = 'ALL';
+            renderAppointments();
+        }
+
+        // ==================== WALK-IN & PASSWORD SETTINGS ====================
+        function openWalkinModal() {
+            document.getElementById('walkin-name').value = '';
+            document.getElementById('walkin-age').value = '';
+            document.getElementById('walkin-phone').value = '';
+            document.getElementById('walkin-issue').value = '';
+            const modal = document.getElementById('walkin-modal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeWalkinModal() {
+            const modal = document.getElementById('walkin-modal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        function handleWalkinSubmit(event) {
+            event.preventDefault();
+            const name = document.getElementById('walkin-name').value.trim();
+            const age = document.getElementById('walkin-age').value.trim();
+            const phone = document.getElementById('walkin-phone').value.trim();
+            const day = document.getElementById('walkin-day').value;
+            const slot = document.getElementById('walkin-slot').value;
+            const issue = document.getElementById('walkin-issue').value.trim();
+
+            allAppointments.unshift({
+                id: 'walkin_' + Date.now(),
+                name,
+                age,
+                phone,
+                day,
+                slot,
+                issue,
+                status: 'pending',
+                createdAtText: 'চেম্বার এন্ট্রি'
+            });
+            saveAppointments(allAppointments);
+            updateDashboardStats();
+            renderAppointments();
+            closeWalkinModal();
+            showToast('নতুন রোগী তালিকায় যোগ করা হয়েছে!');
+        }
+
+        function openPasswordSettingsModal() {
+            document.getElementById('new-password-input').value = '';
+            const modal = document.getElementById('password-settings-modal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closePasswordSettingsModal() {
+            const modal = document.getElementById('password-settings-modal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        function handlePasswordChange(event) {
+            event.preventDefault();
+            const newPwd = document.getElementById('new-password-input').value.trim();
+            if (newPwd.length < 4) {
+                showToast('কমপক্ষে ৪ অক্ষরের পাসওয়ার্ড দিন।');
+                return;
+            }
+            currentDoctorPassword = newPwd;
+            try {
+                localStorage.setItem(PWD_STORAGE_KEY, newPwd);
+            } catch (e) {}
+            closePasswordSettingsModal();
+            showToast('নতুন পাসওয়ার্ড সেভ হয়েছে!');
+        }
+
+        function resetDefaultPassword() {
+            currentDoctorPassword = DEFAULT_DOCTOR_PASSWORD;
+            try {
+                localStorage.setItem(PWD_STORAGE_KEY, DEFAULT_DOCTOR_PASSWORD);
+            } catch (e) {}
+            closePasswordSettingsModal();
+            showToast('পাসওয়ার্ড রিসেট করা হয়েছে।');
+        }
+
+        function copyPatientSummaryForWhatsApp() {
+            if (allAppointments.length === 0) {
+                showToast('কপি করার মতো কোনো তালিকা নেই।');
+                return;
+            }
+            const lines = allAppointments.map((p, idx) =>
+                `${idx + 1}. ${p.name} (${p.age} বছর) - ${p.phone} | ${p.day} (${p.slot}) | ${p.issue} [${p.status === 'completed' ? 'সম্পন্ন' : 'অপেক্ষমাণ'}]`
+            );
+            const fullText = `The Smile House - রোগীদের তালিকা:\n\n` + lines.join('\n');
+            copyText(fullText, 'রোগীদের সম্পূর্ণ তালিকা কপি করা হয়েছে!');
+        }
+
+        // ==================== UTILITIES ====================
+        function escapeHtml(str) {
+            return String(str || '')
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#039;');
+        }
+
+        function copyText(textToCopy, successMsg) {
+            try {
+                const tempInput = document.createElement('textarea');
+                tempInput.value = textToCopy;
+                tempInput.style.position = 'fixed';
+                tempInput.style.opacity = '0';
+                document.body.appendChild(tempInput);
+                tempInput.select();
+                document.execCommand('copy');
+                document.body.removeChild(tempInput);
+                showToast(successMsg);
+            } catch (err) {
+                showToast('কপি করা সম্ভব হয়নি।');
+            }
+        }
+
+        let toastTimeout;
+        function showToast(message) {
+            const toastBox = document.getElementById('toast-box');
+            const toastMessage = document.getElementById('toast-message');
+            toastMessage.textContent = message;
+            toastBox.classList.remove('hidden');
+            toastBox.classList.add('flex');
+
+            clearTimeout(toastTimeout);
+            toastTimeout = setTimeout(() => {
+                toastBox.classList.add('hidden');
+                toastBox.classList.remove('flex');
+            }, 3500);
+        }
+    </script>
+</body>
+</html>
